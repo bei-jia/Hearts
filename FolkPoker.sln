@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolkPoker", "FolkPoker\FolkPoker.csproj", "{70E076E8-CB78-4F97-A86B-32B87AF41366}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hearts", "FolkPoker\Hearts.csproj", "{70E076E8-CB78-4F97-A86B-32B87AF41366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolkPokerModels", "FolkPokerModes\FolkPokerModels.csproj", "{E396322D-1F39-4F85-84D3-3A6AA9AE196A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeartsModels", "FolkPokerModes\HeartsModels.csproj", "{E396322D-1F39-4F85-84D3-3A6AA9AE196A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{172B1093-8BD2-4F4C-B847-6174C78A9FA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolkPokerBLL", "FolkPokerBLL\FolkPokerBLL.csproj", "{B79A6E0B-0638-4FB9-A086-C972B0F071C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeartsBLL", "FolkPokerBLL\HeartsBLL.csproj", "{B79A6E0B-0638-4FB9-A086-C972B0F071C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {721E1200-81DC-4D83-B664-E88F39FF3618}
 	EndGlobalSection
 EndGlobal

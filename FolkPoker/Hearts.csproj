@@ -99,13 +99,13 @@
       <Project>{172b1093-8bd2-4f4c-b847-6174c78a9fa7}</Project>
       <Name>Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FolkPokerBLL\FolkPokerBLL.csproj">
+    <ProjectReference Include="..\FolkPokerBLL\HeartsBLL.csproj">
       <Project>{b79a6e0b-0638-4fb9-a086-c972b0f071c1}</Project>
-      <Name>FolkPokerBLL</Name>
+      <Name>HeartsBLL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FolkPokerModes\FolkPokerModels.csproj">
+    <ProjectReference Include="..\FolkPokerModes\HeartsModels.csproj">
       <Project>{e396322d-1f39-4f85-84d3-3a6aa9ae196a}</Project>
-      <Name>FolkPokerModels</Name>
+      <Name>HeartsModels</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

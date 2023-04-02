@@ -47,9 +47,9 @@
     <Compile Include="ReceiveCard.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FolkPokerModes\FolkPokerModels.csproj">
+    <ProjectReference Include="..\FolkPokerModes\HeartsModels.csproj">
       <Project>{e396322d-1f39-4f85-84d3-3a6aa9ae196a}</Project>
-      <Name>FolkPokerModels</Name>
+      <Name>HeartsModels</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
