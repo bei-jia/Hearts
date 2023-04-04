@@ -75,7 +75,7 @@ namespace FolkPoker
         private int player1 = 0;//角色1得分
         private int player2 = 0;//角色2得分
         private int player3 = 0;//角色3得分
-        private FrmGameOver gameOver;//游戏结果显示窗体
+
         private Myweituo2 weituo2;//玩家叫地主按钮的委托
         private Myweituo2 weituo3;//玩家出牌按钮显示及隐藏的委托
         private Myweituo2 weituo4;//玩家出牌，不出，提示按钮显示及隐藏的委托
@@ -1200,7 +1200,7 @@ namespace FolkPoker
             {
                 string[] name = new string[3] { role2.Player.Nickname, role1.Player.Nickname, role3.Player.Nickname };
                 int[] score = new int[3] { 0, 0, 0 };
-                gameOver = new FrmGameOver(name, score);
+
 
             }
 
@@ -1285,8 +1285,7 @@ namespace FolkPoker
             #region 弹出战局窗体
             string[] name = new string[3] { role2.Player.Nickname, role1.Player.Nickname, role3.Player.Nickname };
             int[] score = new int[3] { playerScore[1], playerScore[0], playerScore[2] };
-            gameOver = new FrmGameOver(name, score);
-            gameOver.ShowDialog();
+
             #endregion
             #region 排名
             string[] playerName = new string[] { role1.Player.Nickname, role2.Player.Nickname, role3.Player.Nickname };
