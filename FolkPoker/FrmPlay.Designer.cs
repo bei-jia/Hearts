@@ -87,7 +87,6 @@
             this.txt_paiMing = new System.Windows.Forms.RichTextBox();
             this.pan_playerTable = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pic_DiZhu = new System.Windows.Forms.PictureBox();
             this.pic_pDown = new System.Windows.Forms.PictureBox();
             this.pic_pLeft = new System.Windows.Forms.PictureBox();
@@ -102,7 +101,6 @@
             this.pan_jiShi.SuspendLayout();
             this.pan_liaotian.SuspendLayout();
             this.pan_playerTable.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_DiZhu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_pDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_pLeft)).BeginInit();
@@ -673,16 +671,6 @@
             this.label1.Text = "Quit the game";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(790, 98);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(208, 576);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 68;
-            this.pictureBox1.TabStop = false;
-            // 
             // pic_DiZhu
             // 
             this.pic_DiZhu.BackColor = System.Drawing.Color.Transparent;
@@ -773,8 +761,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1010, 803);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(1170, 803);
             this.Controls.Add(this.lbl_DownJiFen);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pic_DiZhu);
@@ -815,7 +802,6 @@
             this.pan_liaotian.ResumeLayout(false);
             this.pan_playerTable.ResumeLayout(false);
             this.pan_playerTable.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_DiZhu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_pDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_pLeft)).EndInit();
@@ -892,7 +878,6 @@
         private System.Windows.Forms.Button btn_tiJiao;
         private System.Windows.Forms.ComboBox cbb_input;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel pan_dipai;
         private System.Windows.Forms.PictureBox pic_3;
         private System.Windows.Forms.PictureBox pic_2;
